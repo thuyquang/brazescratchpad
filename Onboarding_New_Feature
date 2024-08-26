@@ -1,0 +1,109 @@
+<!----- Day of week content, free from template updates ----->
+
+{% assign day = 'now' | date: '%A' %}
+
+<!----- Monday is URL listings ----->
+
+{% if day == 'Monday' %}
+
+<a href ="https://www.mercari.com/us/import-listing/" {{content_blocks.${universal_link}}}>{% assign e2_images_photography_image = "https://braze-images.com/appboy/communication/assets/image_assets/images/6661de1f4c73e600586028f7/original.png?1717689887"%}
+{{content_blocks.${e2-images-photography}}}</a>
+
+{% assign e2_body_paragraph_text = "Listing across platforms is tedious, so we're harnessing the power of AI in our newest seller feature. Now, you can import up to 3,000 (!) existing eBay and Poshmark listings in just a few clicks.
+<br><br> <strong>Note: </strong> This feature is not yet supported in app or mobile web."%}
+{{content_blocks.${e2-body-paragraph}}}
+
+{% assign e2_body_cta_single_text = "Import listings"%}
+{% assign e2_body_cta_single_link = "https://www.mercari.com/us/import-listing/" %}
+{% assign e2_body_cta_single_button_color = "#252B60" %}
+{% assign e2_body_cta_single_text_color = "#FFFFFF" %}
+{{content_blocks.${e2-body-cta-single}}}
+
+
+<!----- Tuesday is 0% selling fees ----->
+
+{% elsif day == 'Tuesday' %}
+
+<a href ="https://www.mercari.com/r/?url_scheme=app/openUrl&url=https://www.mercari.com/sellnow/" {{content_blocks.${universal_link}}}>{% assign e2_images_photography_image = "https://braze-images.com/appboy/communication/assets/image_assets/images/6661ddbc2d0388005adb34a7/original.png?1717689788"%}
+{{content_blocks.${e2-images-photography}}}</a>
+
+{% assign e2_body_paragraph_text = " <strong> Keep more of your $$$ when you sell with us! This is the way selling should be.</strong> <br><br>
+And, listing takes just seconds. Pic, description, price, done. Earn more than ever before."%}
+{{content_blocks.${e2-body-paragraph}}}
+
+
+
+<!----- Wednesday is URL listings, will be Cross Border ----->
+
+{% elsif day == 'Wednesday' %}
+
+<a href ="https://www.mercari.com/us/import-listing/" {{content_blocks.${universal_link}}}>{% assign e2_images_photography_image = "https://braze-images.com/appboy/communication/assets/image_assets/images/6661de1f4c73e600586028f7/original.png?1717689887"%}
+{{content_blocks.${e2-images-photography}}}</a>
+
+{% assign e2_body_paragraph_text = "Listing across platforms is tedious, so we're harnessing the power of AI in our newest seller feature. Now, you can import up to 3,000 (!) existing eBay and Poshmark listings in just a few clicks.
+<br><br> <strong>Note: </strong> This feature is not yet supported in app or mobile web."%}
+{{content_blocks.${e2-body-paragraph}}}
+
+{% assign e2_body_cta_single_text = "Import listings"%}
+{% assign e2_body_cta_single_link = "https://www.mercari.com/us/import-listing/" %}
+{% assign e2_body_cta_single_button_color = "#252B60" %}
+{% assign e2_body_cta_single_text_color = "#FFFFFF" %}
+{{content_blocks.${e2-body-cta-single}}}
+
+
+
+<!----- Thursday is bundles ----->
+
+{% elsif day == 'Thursday' %}
+
+<a universal = 'true' href = 'https://www.mercari.com/r/?url_scheme=app/openUrl&url=https://blog.mercari.com/us/new-bundle-offers-are-here'>{% assign e2_images_photography_image = "https://braze-images.com/appboy/communication/assets/image_assets/images/638fb85cd83fb84a50239307/original.png?1670363228"%}
+{{content_blocks.${e2-images-photography}}}</a>
+
+
+
+<!----- Friday is chats ----->
+
+{% elsif day == 'Friday' %}
+
+{% assign e2_body_paragraph_text = "If you’ve got your eye on something, but aren’t quite ready to <a universal = true style='text-decoration: underline; color: #4c4c4c;' href = 'https://www.mercari.com/r/?url_scheme=app/openUrl&url=https://www.mercari.com/us/help_center/article/327/'>make an offer</a>– go for the “soft opening” by messaging the seller.<br><br>A friendly note or question helps signal your interest in the item, so sellers may be more likely to accept a future offer. <br><br>Don't be shy - sellers want to make a deal, too! <b>Here are some common openers:</b>"%}
+{{content_blocks.${e2-body-paragraph}}}
+
+{% assign e2_body_quoted_text_text = "'Can you please add more photos?'"%}
+{{content_blocks.${e2-body-quoted-text}}}
+<br>
+
+{% assign e2_body_quoted_text_text = "'Hi, what are the measurements of this top?'"%}
+{{content_blocks.${e2-body-quoted-text}}}
+<br>
+{% assign e2_body_quoted_text_text = "'Hello! How soon are you able to ship this?'"%}
+{{content_blocks.${e2-body-quoted-text}}}
+
+
+
+<!----- Saturday is Zip ----->
+
+{% elsif day == 'Saturday'%}
+
+<a universal = 'true' href = 'https://www.mercari.com/r/?url_scheme=app/openUrl&url=https://www.mercari.com/us/enjoy-now-pay-later/'>{% assign e2_images_photography_image = "https://braze-images.com/appboy/communication/assets/image_assets/images/6375611a01c03f071e72db43/original.png?1668636954"%}
+{{content_blocks.${e2-images-photography}}}</a>
+
+
+{% else %}
+
+
+<!----- Sunday is URL listings, will be XB ----->
+
+<a href ="https://www.mercari.com/us/import-listing/" {{content_blocks.${universal_link}}}>{% assign e2_images_photography_image = "https://braze-images.com/appboy/communication/assets/image_assets/images/6661de1f4c73e600586028f7/original.png?1717689887"%}
+{{content_blocks.${e2-images-photography}}}</a>
+
+{% assign e2_body_paragraph_text = "Listing across platforms is tedious, so we're harnessing the power of AI in our newest seller feature. Now, you can import up to 3,000 (!) existing eBay and Poshmark listings in just a few clicks.
+<br><br> <strong>Note: </strong> This feature is not yet supported in app or mobile web."%}
+{{content_blocks.${e2-body-paragraph}}}
+
+{% assign e2_body_cta_single_text = "Import listings"%}
+{% assign e2_body_cta_single_link = "https://www.mercari.com/us/import-listing/" %}
+{% assign e2_body_cta_single_button_color = "#252B60" %}
+{% assign e2_body_cta_single_text_color = "#FFFFFF" %}
+{{content_blocks.${e2-body-cta-single}}}
+
+{% endif %}
