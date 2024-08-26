@@ -1,3 +1,7 @@
+{{content_blocks.${Onboarding_New_Feature}}}
+
+
+
 <!----- Day of week content, free from template updates ----->
 
 {% assign day = 'now' | date: '%A' %}
